@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  fiscal-1:
+    image: zfplab:0.1
+    ports:
+     - "10001:4444"
+  fiscal-2:
+    image: zfplab:0.1
+    ports:
+     - "10002:4444"
+  fiscal-3:
+    image: zfplab:0.1
+    ports:
+     - "10003:4444"
+  fiscal-4:
+    image: zfplab:0.1
+    ports:
+     - "10004:4444"
+
