@@ -4,16 +4,20 @@ services:
     image: zfplab:0.1
     ports:
      - "10001:4444"
+    restart: unless-stopped
   fiscal-2:
     image: zfplab:0.1
     ports:
      - "10002:4444"
+    restart: unless-stopped
   fiscal-3:
     image: zfplab:0.1
     ports:
      - "10003:4444"
+    restart: unless-stopped
   fiscal-4:
     image: zfplab:0.1
     ports:
      - "10004:4444"
+    restart: unless-stopped
 
